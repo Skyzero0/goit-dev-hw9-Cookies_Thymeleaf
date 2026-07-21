@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>"Time"</title>
+</head>
+<div id="time"></div>
+<meta http-equiv="refresh" content="1">
+<body>
+<h1>
+    <span th:text="${time}"></span>
+</h1>
+
+
+<!--<script >-->
+<!--function updateTime() {-->
+<!--    fetch("http://localhost:8080/goit-dev-hw9-Cookies_Thymeleaf-1.0-SNAPSHOT/time")-->
+<!--        .then(res => res.text())-->
+<!--        .then(data => {-->
+<!--            document.getElementById("time").innerHTML = data;-->
+<!--        })-->
+<!--        .catch(error => console.error(error));-->
+<!--}-->
+<!--updateTime();-->
+<!--setInterval(updateTime, 1000);-->
+<!--</script>-->
+
+</body>
+</html>
